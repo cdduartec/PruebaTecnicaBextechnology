@@ -1,0 +1,26 @@
+miCallback([
+    {
+      "id": 1,
+      "name": "MATERA CUADRO",
+      "desc": "Matera en forma de cuadro fabricada en ceramica de muy alta calidad especial para bonsai",
+      "img": "imagenes/DC04.jpg"
+    },
+    {
+      "id": 2,
+      "name": "MATERA CALABAZA",
+      "desc": "Matera en forma de calabaza fabricada en ceramica de muy alta calidad especial para cactus y suculentas",
+      "img": "imagenes/DC06.jpg"
+    },
+    {
+      "id": 3,
+      "name": "MATERA HUEVO",
+      "desc": "Matera en forma de huevo fabricada en ceramica de muy alta calidad especial para cactus y suculentas",
+      "img": "imagenes/KN0002.jpg"
+    },
+    {
+      "id": 4,
+      "name": "MINI MATERA",
+      "desc": "Matera miniatura en forma de cuadro fabricada en ceramica de muy alta calidad especial para cactus y suculentas ",
+      "img": "imagenes/KN0007.jpg"
+    }
+]);

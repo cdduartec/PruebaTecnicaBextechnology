@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Estilos.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+			  <a href="#Valoraciones">Valoraciones</a>
+			  <a href="#Contacto">CONTACTO</a>
+			  <img src="imagenes/Logo1.png">
+			  <a href="#Productos">PRODUCTOS</a>
+			  <a href="#info">NOSOTROS</a>
+			</nav>
+			<section id="container-slider">	
+			   <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+			   <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+			   <ul class="listslider">
+			     <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+			     <li><a itlist="itList_1" href="#"></a></li>
+			     <li><a itlist="itList_2" href="#"></a></li>
+			   </ul>
+			   <ul id="slider">
+			     <li style="background-image: url('imagenes/art-1837073_1920.jpg'); z-index:0; opacity: 1;">
+			       <div class="content_slider" >
+			         <div>
+			           <h2>Lorem ipsum dolor</h2>
+				   <p>Lorem ipsum dolor sit amet, consectetur.</p>
+				   <a href="#" class="btnSlider">Ver más</a>
+				 </div>
+			       </div>
+			     </li>
+			     <li style="background-image: url('imagenes/ceramics-1868492_1920.jpg'); ">
+			       <div class="content_slider" >
+			         <div>
+			           <h2>Lorem</h2>
+				   <p>Lorem ipsum dolor sit amet, consectetur.</p>
+				   <a href="#" class="btnSlider">Ver más</a>
+				 </div>
+			       </div>
+			     </li>
+			     <li style="background-image: url('imagenes/tea-1150046_1920.jpg'); ">
+			       <div class="content_slider" >
+			         <div>
+			           <h2>Lorem ipsum dolor</h2>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				   <a href="#" class="btnSlider">Ver más</a>
+				 </div>
+			       </div>
+			     </li>
+			  </ul>
+			</section>
+		</header>
+		<section  id="Valoraciones">
+			<h1>Lorem ipsum</h1><br>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet scelerisque diam. 
+				<br>Etiam a fermentum.
+			</p><br>
+			<div class="content">
+				<div class="art_cont">
+					<img src="imagenes/1.jpg"><br>
+					<h3>Cilindro</h3><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas nisi ut arcu dictum, nec.</p>
+				</div>
+				<div class="art_cont">
+					<img src="imagenes/2.jpg"><br>
+					<h3>Cuadro 2 años</h3><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas nisi ut arcu dictum, nec.</p>
+				</div>
+				<div class="art_cont">
+					<img src="imagenes/3.jpg"><br>
+					<h3>MAtera Calabaza</h3><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas nisi ut arcu dictum, nec.</p>
+				</div>
+			<div>
+		</section>
+		<section id="Contacto">
+			<div class="content">
+				<div class="art2_cont">
+					<progress id="file" value="32" max="100"> 32% </progress>
+					<progress id="file" value="50" max="100"> 50% </progress>	
+					<progress id="file" value="72" max="100"> 82% </progress>
+				</div>
+				<div class="art2_cont">
+					<h1>Lorem ipsum dolor sit amet</h1><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in erat id ipsum auctor ornare. Maecenas sapien mi, fringilla sit.</p><br>
+					<a href="#" id="leermas">Ver más</a>
+				</div>
+			</div>
+		</section>
+		<section id="Productos">
+			<div id="results"></div>
+		</section>
+	</body>
+	<footer>
+		<div id="info">
+				<div style="width: 30%">
+					<img src="imagenes/Logo2.png" width="200">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet mollis ipsum vitae pulvinar. Maecenas vitae malesuada leo, sit amet condimentum nisi. Proin posuere enim vitae metus luctus dignissim. Nullam.
+					</p>
+				</div>
+				<div style="width: 30%">
+					<h2>Lorem Ipsum</h2><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque porttitor facilisis. Class aptent taciti.</p><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque porttitor facilisis. Class aptent taciti.</p>
+				</div>
+				<div style="width: 30%">
+					<h2>Mauris tempus justo</h2><br>
+					<table>
+						<tr>
+							<td><img src="imagenes/DC04.jpg" width="70"></td>
+							<td><img src="imagenes/DC06.jpg" width="70"></td>
+							<td><img src="imagenes/KN0002.jpg" width="70"></td>
+						</tr>
+						<tr>
+							<td><img src="imagenes/KN0007.jpg" width="70"></td>
+							<td><img src="imagenes/DC05.jpg" width="70"></td>
+							<td><img src="imagenes/DC03.jpg" width="70"></td>
+						</tr>
+					</table>
+				</div>
+		</div>
+		<div id="copy">
+			Copyright © 2021 | Develtec Software Company
+		</div>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="Funciones.js"></script>	
+		<script src="productos.jsonp"></script>
+	</footer>
+</html>
